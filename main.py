@@ -1,4 +1,5 @@
 from tkinter import *
+from tkinter import messagebox
 import math
 # ---------------------------- CONSTANTS ------------------------------- #
 PINK = "#e2979c"
@@ -59,6 +60,7 @@ def count_down(count):
             label_check.config(text=mark)
             if mark == '✔✔✔✔':
                 mark = ''
+        messagebox.showinfo(title='Time', message='Time')
 
 
 # ---------------------------- UI SETUP ------------------------------- #
