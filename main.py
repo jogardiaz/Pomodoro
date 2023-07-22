@@ -26,9 +26,9 @@ def start_countdown():
     global reps
     reps += 1
 
-    work_secs = WORK_MIN #* 60
-    short_secs = SHORT_BREAK_MIN #* 60
-    long_secs = LONG_BREAK_MIN #* 60
+    work_secs = WORK_MIN * 60
+    short_secs = SHORT_BREAK_MIN * 60
+    long_secs = LONG_BREAK_MIN * 60
 
     if reps % 8 == 0:
         count_down(long_secs)
